@@ -1,5 +1,5 @@
 apiVersion: argoproj.io/v1alpha1
-kind: Application
+kind: application
 
 metadata:
   name: myapp-argo-application
@@ -8,7 +8,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/argoproj/argocd-example-apps.git
+    repoURL: https://github.com/Aung-Khant-Maung/dev.git
     path: guestbook
     targetRevision: HEAD
   destination:
