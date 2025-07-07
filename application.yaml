@@ -9,7 +9,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/Aung-Khant-Maung/dev.git
-    path: guestbook
+    path: dev
     targetRevision: HEAD
   destination:
     server: https://kubernetes.default.svc
